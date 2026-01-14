@@ -13,7 +13,7 @@ function WordMotion({ content, ariaLabel }: WordMotionProps) {
 	// Split content into words
 	const words = content.split(' ');
 
-	// Track scroll progress of the container
+	// Track scroll progress of the container'
 	const { scrollYProgress } = useScroll({
 		target: containerRef,
 		offset: ['start start', 'end end'],

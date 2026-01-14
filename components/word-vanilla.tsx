@@ -65,10 +65,8 @@ function WordVanilla({ content, ariaLabel }: WordVanillaProps) {
 						// Round to avoid subpixel flickering
 						span.style.opacity = opacity.toFixed(3);
 					});
-
 					ticking = false;
 				});
-
 				ticking = true;
 			}
 		};
